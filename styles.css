@@ -1,0 +1,2153 @@
+/* ============ STRUCTURE SET ============= */
+* {
+    max-height: 100%;
+    max-width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: auto;
+    font-style: normal;
+}
+
+
+
+h1 {
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: #1E201E;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    display: flex;
+    justify-content: end;
+
+    height: 117.64px;
+    font-size: 18.9484px;
+
+}
+
+
+/*==========NAV BAR===============*/
+nav {
+
+    text-decoration: none;
+    height: 73.98px;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+
+    height: 73.98px;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 1.2724px 0px;
+    font-family: 'Forma DJR Display', sans-serif;
+
+}
+
+.left {
+    color: #5C8374;
+    font-size: 2.5rem;
+    font-family: "lato";
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 50%;
+    width: fit-content;
+
+
+}
+
+#head img {
+    width: auto;
+    height: 124.98px;
+    max-width: 1206.06px;
+}
+
+.right {
+    text-decoration: none;
+    display: flex;
+    color: #EEEEEE;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-left: 3%;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    width: 23.88px;
+    margin: 0 55px;
+    font-size: 12.724px;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    padding: 1.2724px 0px;
+    letter-spacing: 2px;
+
+
+}
+
+/*========== HOME PAGE ============*/
+
+.Welcome hr {
+
+    height: 0;
+    border: 3px solid #FF6500;
+    margin-right: 0;
+    box-shadow: 2px 2px #1E201E;
+    margin-top: 18px;
+}
+
+#infocontainer {
+    margin-top: 2%;
+    max-height: 1500px;
+    max-width: 100%;
+    height: 1200px;
+    display: flex;
+    width: 100%;
+    color: #EEEEEE;
+}
+
+#information {
+    margin-top: 20%;
+    max-width: 100%;
+    font-size: 1.5rem;
+    line-height: 43px;
+    font-weight: 600;
+
+}
+
+#homepage1left {
+    width: 70%;
+}
+
+#homepage1right {
+    height: 1000px;
+    width: 30%;
+    background-image: url("Assests/PXL_20231122_165021972~2@-1634835074.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Welcome {
+    max-height: 729px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #EEEEEE;
+    margin-top: 5%;
+    font-size: 2rem;
+    height: 728.4px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+
+}
+
+#name {
+    display: flex;
+    justify-content: start;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal
+}
+
+.Welcome h1 {
+
+    font-size: 4rem;
+    text-shadow: none;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 2px 2px #1E201E;
+
+}
+
+#biography {
+
+    width: 100%;
+    height: 1056px;
+    background-color: #EEEEEE;
+    color: black;
+    display: flex;
+}
+
+.circle {
+    margin-bottom: 135%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #FF6500;
+    position: absolute;
+    margin-left: 32%;
+    height: 30%;
+    width: 15%;
+}
+
+#bioleft {
+    background-image: url("Assests/1709582731009-removebg-preview.png");
+    background-repeat: no-repeat;
+    width: 45%;
+    background-color: #DDDDDD;
+    background-size: cover;
+}
+
+
+
+#bioright {
+    margin-top: 3%;
+    width: 60%;
+}
+
+#bioright h2 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 750;
+    margin-left: 15%;
+}
+
+#bioright hr {
+    border: 3px solid #FF6500;
+    margin-left: 49%;
+}
+
+#bioright p {
+    font-size: 1.2rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 40px;
+}
+
+#bioright button {
+    padding: 36px;
+    border-radius: 50px;
+    background-color: #FF6500;
+    color: white;
+    border: transparent;
+    width: 30%;
+    font-size: 12.724px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 20%;
+    margin-bottom: 8%;
+
+}
+
+#bioright button:hover {
+    background-color: #FF9100;
+}
+
+#recommendations {
+
+    max-height: 1214px;
+    width: 100%;
+    height: 1213px;
+    background-color: #1E201E;
+    color: #FFFFFF;
+    display: flex;
+}
+
+#recomleft {
+    width: 50%;
+    height: 100%;
+    background-image: url("Assests/niclas-illg-FJ5e_2f96h4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#recomright {
+    width: 50%;
+    height: 100%;
+    font-family: "Lato";
+    margin-top: 5%;
+
+}
+
+#recomright h2 {
+    font-size: 2rem;
+    display: flex;
+
+    font-weight: 750;
+}
+
+#recomright hr {
+    border: 3px solid #FF6500;
+    width: 100%;
+}
+
+#recomright p {
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+#recomright h3 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 750;
+    margin-bottom: 0;
+}
+
+
+#getintouch {
+    max-height: 1132px;
+    background-image: url("Assests/InShot_20221004_152638291.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1131px;
+}
+
+#getintouch button {
+    padding: 36px;
+    border-radius: 50px;
+    background-color: #FF6500;
+    color: white;
+    border: transparent;
+    width: 15%;
+    font-size: 12.724px;
+    font-family: "Forma DJR Display", sans-serif;
+    margin-left: 60%;
+    margin-bottom: 8%;
+    font-weight: bolder;
+}
+
+#getintouch button:hover {
+    background-color: #FF9100;
+}
+
+footer {
+    max-width: 100%;
+    max-height: 100%;
+    height: 304.47px;
+    width: 1348px;
+    margin-top: 15%;
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+footer nav {
+    width: 2%;
+    margin-left: 35%;
+}
+
+footer nav ul {
+    display: inline;
+}
+
+footer nav ul li {
+    line-height: 25px;
+    color: white;
+}
+
+footer #cont {
+    margin-left: 30%;
+    width: 5%;
+    margin-top: -1%;
+}
+
+footer #copyright {
+    width: 20%;
+    margin-left: 15%;
+    margin-top: -1%;
+
+}
+
+footer #logo img {
+    max-width: 200%;
+    margin-left: 177%;
+    width: 150;
+    margin-top: -60%;
+}
+
+
+
+/*============ ABOUT PAGE ==============*/
+
+#about {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.a_left {
+    margin-top: 7%;
+    color: #FFFFFF;
+    width: 50%;
+    font-family: "Lato";
+    margin-left: 5%;
+
+}
+
+.a_right {
+    width: 50%;
+    height: 935.42px;
+    max-height: 1000px;
+    background-image: url("Assests/InShot_20221004_152638291.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.a_left hr {
+    width: 55%;
+    position: absolute;
+    height: 0;
+    border: 2px solid #FF6500;
+    margin-right: 50%;
+    margin-top: 18px;
+}
+
+.a_left h1 {
+    font-size: 10rem;
+    font-weight: 750;
+    margin-top: 2%;
+    margin-bottom: 80px;
+    width: 100%;
+
+}
+
+.a_left h2 {
+    width: 100%;
+    font-size: 26.92px;
+}
+
+.a_left p {
+    width: 100%;
+    font-size: 19.276px;
+    font-weight: 500;
+}
+
+#circles {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.circle1 {
+    margin-left: 96%;
+    height: 40px;
+    width: 40px;
+    background-color: #FF6500;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.circle2 {
+    margin-left: 96%;
+    height: 40px;
+    width: 40px;
+    background-color: #FF6500;
+    border-radius: 50%;
+}
+
+#mybackground {
+    width: 100%;
+    height: 1870px;
+    background-color: #EEEEEE;
+    display: flex;
+    color: #1E201E;
+}
+
+#backgroundleft {
+    background-image: url("Assests/nathan-dumlao-7tOmkweY4AA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#backgroundright {
+    width: 60%;
+    margin-top: 8%;
+    line-height: 50px;
+}
+
+#backgroundright h1 {
+    font-size: 2rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+
+}
+
+#backgroundright p {
+    width: 66%;
+    margin-left: 15%;
+    margin-right: 40%;
+    font-size: 18.88px;
+    line-height: 30px;
+}
+
+#backgroundright hr {
+    width: 59%;
+    height: 0;
+    border: 2px solid #FF6500;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+#backgroundright button {
+    padding: 36px;
+    border-radius: 50px;
+    background-color: #FF6500;
+    color: white;
+    border: transparent;
+    width: 36%;
+    font-size: 12.724px;
+    font-family: "Forma DJR Display", sans-serif;
+    margin-left: 15%;
+    margin-top: 50%;
+    font-weight: bolder;
+}
+
+.aboutcircle {
+    margin-bottom: 55%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #FF6500;
+    position: absolute;
+    margin-left: 43%;
+    height: 30%;
+    width: 15%;
+}
+
+#iandt {
+    max-height: 1500px;
+    width: 100%;
+    height: 1100px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+#iandtleft {
+    width: 53%;
+    margin-top: 10%;
+}
+
+#iandtleft h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#iandtleft hr {
+    width: 70%;
+    height: 0;
+    border: 2px solid #FF6500;
+    margin-top: 5%;
+    margin-right: 42%;
+    margin-bottom: 5%;
+}
+
+#iandtleft p {
+    width: 66%;
+    margin-left: 15%;
+    margin-right: 40%;
+    font-size: 18.88px;
+    line-height: 30px;
+}
+
+#iandtright {
+    width: 50%;
+    background-image: url("Assests/florian-krumm-euZ2n8dGUcQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#iandtleft #circles {
+    margin-top: 5%;
+}
+
+#iandtleft .circle1 {
+    height: 40px;
+    width: 40px;
+    background-color: #FF6500;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+#iandtleft .circle2 {
+    height: 40px;
+    width: 40px;
+    background-color: #FF6500;
+    border-radius: 50%;
+}
+
+#iandtnav {
+    max-height: 750px;
+    height: 745.03px;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+#iandtnav li {
+    border-top: solid 1px #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
+    ;
+    list-style: none;
+    font-size: 17.6px;
+    width: 80%;
+    padding: 15px 0px;
+    font-weight: 600;
+    font-family: "Forma DJR Display", sans-serif;
+    text-transform: uppercase;
+
+}
+
+#iandtnavleft {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#iandtnavright {
+    width: 50%;
+    margin-top: 10%;
+}
+
+#exper {
+    background-color: #EEEEEE;
+    color: #1E201E;
+    width: 100%;
+    max-width: 2000px;
+    padding: 168.96px 0px;
+}
+
+#exper h1 {
+    max-width: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    font-weight: 750;
+
+}
+
+#exper hr {
+    margin-left: 50%;
+    width: 50%;
+    height: 0;
+    border: 2.5px solid #FF6500;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#expernav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 18.88px;
+}
+
+#expernav li {
+    margin: 9.44px 0px;
+    font-weight: 600;
+}
+
+#lastabout {
+    color: #FFFFFF;
+    max-height: 1132px;
+    height: 500px;
+    width: 100%;
+    background-image: url("Assests/hayffield-l-VhumUw2ykLs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 168.96px 0px;
+    font-size: 18.88px;
+    font-family: "lato", sans-serif;
+}
+
+#lastabout h1 {
+    max-width: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    font-size: 9rem;
+    font-weight: 800;
+    margin-left: 50%;
+}
+
+#lastabout h3 {
+    margin-left: 10%;
+    max-width: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+}
+
+/*=========== EDUCATION PAGE ============= */
+
+
+/*============== CONTACT PAGE ===============*/
+#contactcontent {
+    width: 100%;
+    display: flex;
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+}
+
+#contleft {
+    width: 40%;
+    margin-top: 7%;
+    color: #FFFFFF;
+    width: 95%;
+    font-family: "Lato";
+    margin-left: 3%;
+}
+
+
+#contleft hr {
+    width: 53%;
+    height: 0;
+    border: 2px solid #FF6500;
+    box-shadow: 2px 2px #1E201E;
+    margin-left: 0%;
+    position: absolute;
+}
+
+#contleft h1 {
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    font-size: 10rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+#contright {
+    background-image: url("Assests/IMG_20220714_134319_504.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 200%;
+    width: 130%;
+    max-height: 878px;
+    height: 877.93px;
+}
+
+
+
+#contleft img {
+    margin-bottom: 3%;
+}
+
+#contleft h2 {
+    margin-left: 0.5%;
+}
+
+#contleft h3 {
+    margin-top: 35px;
+}
+
+#contleft .email {
+    display: flex;
+    margin-top: 2.5%;
+}
+
+#contleft button {
+    width: 212.06px;
+    height: 70.19px;
+    padding: 25.6px 32.064px;
+    border-radius: 50px;
+    background-color: #FF6500;
+    color: white;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 750;
+    letter-spacing: 2px;
+
+}
+
+
+/*================= SPEAKING PAGE =================*/
+#speaking1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 1087px;
+    height: 1086.58px;
+    color: #FFFFFF;
+
+
+
+}
+
+#speaking1left {
+    max-width: 100%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 8%;
+
+    h1 {
+
+        font-size: 2.8rem;
+        font-size: 10rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 80px;
+        letter-spacing: 0;
+        margin-top: 2%;
+    }
+
+    hr {
+        width: 53%;
+        height: 0;
+        border: 3px solid #FF6500;
+        margin-left: 0%;
+        position: absolute;
+    }
+
+    h3 {
+        width: 90%;
+        font-size: 18.88px;
+        line-height: 30px;
+    }
+
+}
+
+#speaking1right {
+    background-image: url("Assests/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 1087px;
+    height: 1086.58px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#speakingcircle {
+    margin-top: 15%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: #FF6500;
+    position: absolute;
+    margin-left: 40%;
+    height: 39%;
+    width: 19%;
+}
+
+#speaking2 {
+    width: 100%;
+    display: flex;
+    background-color: #EEEEEE;
+
+    #speaking2left {
+        max-height: 1500px;
+        height: 1200.97px;
+        max-width: 100%;
+        width: 50%;
+        background-image: url("Assests/ana-nichita-BI91NrppE38-unsplash.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #speaking2right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        button {
+            width: 350.55px;
+            height: 81.56px;
+            padding: 0px 23.8576px;
+            border-radius: 50px;
+            border-style: none;
+            background-color: #FF6500;
+            color: white;
+            font-family: "Lato";
+            font-size: 8.905px;
+            font-weight: 750;
+            letter-spacing: 2px;
+            margin-left: 20%;
+            margin-top: 18%;
+        }
+    }
+
+    #scircles {
+        margin-top: 5%;
+    }
+
+    .scircle1 {
+        height: 40px;
+        width: 40px;
+        background-color: #FF6500;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+
+    .scircle2 {
+        height: 40px;
+        width: 40px;
+        background-color: #FF6500;
+        border-radius: 50%;
+    }
+
+    #speaking2right p {
+        width: 80%;
+        padding: 0px 100px 16px;
+        font-size: 18.94px;
+        line-height: 30px;
+        color: #1E201E;
+        display: flex;
+        margin-top: 0;
+    }
+
+
+}
+
+
+#speaking3 {
+    max-height: 3200px;
+    height: 2900px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #1E201E;
+
+    #v1 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+
+        .v1left {
+            max-height: 399.09px;
+            width: 37%;
+            background-image: url("Assests/Screenshot 2024-08-20 173604.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 395px;
+            margin-top: 3%;
+            margin-left: 4.5%;
+        }
+
+        .v1right {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 6%;
+            margin-left: 4.5%;
+
+            hr {
+                border: solid 3px #FF6500;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                line-height: 30px;
+            }
+        }
+    }
+
+
+    #v2 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+
+
+        .v2left {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 8%;
+
+            h1 {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                margin-left: 28%;
+                line-height: 30px;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        hr {
+            border: solid 3px #FF6500;
+            width: 80%;
+            margin-right: 30%;
+        }
+
+        .v2right {
+            margin-top: 7%;
+            max-width: 100%;
+            width: 35%;
+            max-height: 399.09px;
+            height: 395px;
+            background-image: url("Assests/Screenshot 2024-08-20 173630.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+    }
+
+    #v3 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+        margin-top: 8%;
+
+        .v3left {
+            max-height: 399.09px;
+            width: 37%;
+            background-image: url("Assests/Screenshot 2024-08-20 173645.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 395px;
+            margin-top: 3%;
+            margin-left: 4.5%;
+        }
+
+        .v3right {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 6%;
+            margin-left: 4.5%;
+
+            hr {
+                border: solid 3px #FF6500;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                line-height: 30px;
+            }
+        }
+    }
+
+    #v4 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+
+
+        .v4left {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 8%;
+
+            h1 {
+                display: flex;
+                width: 60%;
+                justify-content: center;
+                margin-left: 20%;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                margin-left: 20%;
+                line-height: 30px;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        hr {
+            border: solid 3px #FF6500;
+            width: 80%;
+            margin-right: 30%;
+        }
+
+        .v4right {
+            margin-top: 7%;
+            max-width: 100%;
+            width: 35%;
+            max-height: 399.09px;
+            height: 395px;
+            background-image: url("Assests/Screenshot 2024-08-20 173706.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+    }
+
+    #v5 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+        margin-top: 8%;
+
+        .v5left {
+            max-height: 399.09px;
+            width: 37%;
+            background-image: url("Assests/Screenshot 2024-08-20 173717.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 395px;
+            margin-top: 3%;
+            margin-left: 4.5%;
+        }
+
+        .v5right {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 4%;
+            margin-left: 4.5%;
+
+            hr {
+                border: solid 3px #FF6500;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                line-height: 30px;
+            }
+        }
+    }
+
+    #v6 {
+        max-width: 100%;
+        max-height: 400px;
+        height: 399.09px;
+        width: 100%;
+        display: flex;
+        color: #FFFFFF;
+
+
+        .v6left {
+            max-width: 100%;
+            width: 50%;
+            max-height: 400px;
+            height: 399.09px;
+            margin-top: 8%;
+
+            h1 {
+                display: flex;
+                width: 60%;
+                justify-content: start;
+                margin-left: 20%;
+                font-weight: 750;
+            }
+
+            p {
+                font-size: 18.99px;
+                width: 55%;
+                margin-left: 20%;
+                line-height: 30px;
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        hr {
+            border: solid 3px #FF6500;
+            width: 80%;
+            margin-right: 30%;
+        }
+
+        .v6right {
+            margin-top: 7%;
+            max-width: 100%;
+            width: 35%;
+            max-height: 399.09px;
+            height: 395px;
+            background-image: url("Assests/Screenshot 2024-08-20 173730.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+    }
+}
+
+#speaking4 {
+    width: 100%;
+    max-height: 323px;
+    height: 322px;
+    display: flex;
+
+    #s4pic1 {
+        max-width: 34%;
+        width: 33.3%;
+        background-image: url("Assests/ben-tofan-5tfHfwnhyyM-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #s4pic2 {
+        max-width: 34%;
+        width: 33.3%;
+        background-image: url("Assests/max-ilienerwise-crXcq7JqjVU-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #s4pic3 {
+        max-width: 34%;
+        width: 33.3%;
+        background-image: url("Assests/elizeu-dias-2EGNqazbAMk-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/*============== ORESTIFY ==============*/
+
+#orestify1 {
+    width: 100%;
+    height: 1086.61px;
+    max-height: 1087px;
+    display: flex;
+    color: #FFFFFF;
+
+    #oleft1 {
+        width: 50%;
+        height: 100%;
+
+        margin-left: 5%;
+        margin-top: 8%;
+
+        h1 {
+
+            font-size: 2.8rem;
+            font-size: 10rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 80px;
+            letter-spacing: 0;
+            margin-top: 2%;
+        }
+
+        hr {
+            width: 53%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+            position: absolute;
+        }
+
+        h2 {
+            width: 60%;
+            line-height: 50px;
+            font-size: xx-large;
+        }
+
+        button {
+            width: 280.55px;
+            height: 81.56px;
+            padding: 0px 23.8576px;
+            border-radius: 50px;
+            border-style: none;
+            background-color: #FF6500;
+            color: white;
+            font-family: "Lato";
+            font-size: 8.905px;
+            font-weight: 750;
+            letter-spacing: 2px;
+            margin-left: 0%;
+            margin-top: 18%;
+        }
+    }
+
+    #oright1 {
+        max-width: 100%;
+        max-height: 100%;
+        width: 50%;
+        height: 100%;
+        background-image: url("Assests/mahdis-mousavi-T4-_zzN0tKA-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+}
+
+#orestify2 {
+    width: 100%;
+    max-height: 1371px;
+    height: 1371.75px;
+    display: flex;
+    color: #1E201E;
+    background-color: #EEEEEE;
+
+    #oleft2 {
+        width: 50%;
+        max-height: 100%;
+        height: 95%;
+        background-image: url("Assests/minh-pham-HI6gy-p-WBI-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #oright2 {
+
+        width: 50%;
+        margin-left: 5%;
+        font-size: x-large;
+
+
+
+        h2 {
+            width: 90%;
+            margin-top: 6%;
+            font-weight: 600;
+        }
+
+        hr {
+            width: 58.5%;
+            border: 3px solid #FF6500;
+            margin-left: 41%;
+        }
+
+        p {
+            width: 80%;
+        }
+    }
+
+}
+
+#orestify3 {
+    width: 100%;
+    max-height: 955px;
+    height: 618.09px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+
+    #oleft3 {
+        max-width: 100%;
+        width: 50%;
+        height: 100%;
+
+
+        h1 {
+            width: 100%;
+            justify-content: end;
+            display: flex;
+            font-size: 10rem;
+            font-weight: 700;
+            margin-bottom: 2%;
+        }
+
+        hr {
+            width: 35%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+            position: absolute;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 24.19px;
+            font-family: "lato", sans-serif;
+            margin-top: 10%;
+            width: 80%;
+            line-height: 40px;
+            display: flex;
+            justify-content: end;
+            padding-left: 8%;
+        }
+
+        button {
+            width: 220.55px;
+            height: 84.84px;
+            padding: 0px 23.8576px;
+            border-radius: 50px;
+            border-style: none;
+            background-color: #FF6500;
+            color: white;
+            font-family: "Lato";
+            font-size: 8.905px;
+            font-weight: 750;
+            letter-spacing: 2px;
+            margin-left: 8%;
+            margin-top: 5%;
+        }
+
+    }
+
+
+    #oright3 {
+        max-width: 100%;
+        width: 50%;
+
+        nav {
+            width: 100%;
+
+
+            ul {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 30%;
+
+
+                li {
+                    text-transform: uppercase;
+                    margin-left: 0%;
+                    width: 100%;
+                    font-weight: 750;
+                    font-size: 18.88px;
+                    font-family: "lato", sans-serif;
+                    border-top: solid 1px #FFFFFF;
+                    border-bottom: solid 1px #FFFFFF;
+                    line-height: 40px;
+
+                    padding-left: 8%;
+                }
+            }
+        }
+
+
+
+    }
+}
+
+#orestify4 {
+    width: 100%;
+    max-height: 1080px;
+    height: 1070.16px;
+    display: flex;
+    background-color: #EEEEEE;
+    color: #1E201E;
+
+    #oleft4 {
+        max-width: 100%;
+        width: 50%;
+        height: 100%;
+        max-height: 100%;
+        background-image: url("Assests/brooke-cagle-R0Ea06wC2IM-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #oright4 {
+        width: 50%;
+        margin-left: 5%;
+        font-size: x-large;
+
+
+        h2 {
+            width: 90%;
+            margin-top: 6%;
+            font-weight: 600;
+        }
+
+        hr {
+            width: 58.5%;
+            border: 3px solid #FF6500;
+            margin-left: 41%;
+        }
+
+        p {
+            width: 60%;
+            margin-top: 10%;
+            font-size: 10px;
+        }
+
+
+        button {
+            width: 500px;
+            height: 81.56px;
+            padding: 0px 23.8576px;
+            border-radius: 50px;
+            border-style: none;
+            background-color: #FF6500;
+            color: white;
+            font-family: "Lato";
+            font-size: 8.905px;
+            font-weight: 750;
+            letter-spacing: 2px;
+            margin-left: 0%;
+            margin-top: 13%;
+        }
+    }
+}
+
+#orestify5 {
+    width: 100%;
+    max-height: 955px;
+    height: 618.09px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 6.6vmax;
+    padding-bottom: 6.6vmax;
+
+    #oleft5 {
+        max-width: 100%;
+        width: 50%;
+        height: 100%;
+
+
+        h1 {
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            font-size: 10rem;
+            font-weight: 700;
+            margin-bottom: 2%;
+            margin-left: 8%;
+            letter-spacing: 0;
+        }
+
+        hr {
+            width: 35%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+            position: absolute;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 24.19px;
+            font-family: "lato", sans-serif;
+            margin-top: 10%;
+            width: 80%;
+            line-height: 40px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    #oright5 {
+        max-width: 100%;
+        width: 50%;
+
+        nav {
+            width: 100%;
+
+
+            ul {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20%;
+
+
+                li {
+                    text-transform: uppercase;
+                    margin-left: 0%;
+                    width: 100%;
+                    font-weight: 750;
+                    font-size: 18.88px;
+                    font-family: "lato", sans-serif;
+                    border-top: solid 1px #FFFFFF;
+                    border-bottom: solid 1px #FFFFFF;
+                    line-height: 40px;
+
+                    padding-left: 8%;
+                }
+            }
+        }
+    }
+
+
+}
+
+#orestify6 {
+    width: 100%;
+    max-height: 1080px;
+    height: 765.66px;
+    display: flex;
+    background-image: url("Assests/harps-joseph-tAvpDE7fXgY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        width: 50%;
+        color: #FFFFFF;
+        justify-content: center;
+        display: flex;
+        font-size: 10rem;
+        font-weight: 700;
+        margin-bottom: 2%;
+        margin-left: 8%;
+        letter-spacing: 0;
+    }
+}
+
+/*============= PUBLICATIONS ==============*/
+
+#publications1 {
+    width: 100%;
+    max-height: 1080px;
+    height: 771.91px;
+    display: flex;
+
+    #pleft1 {
+        width: 50%;
+        background-color: #1E201E;
+        color: #FFFFFF;
+        height: 100%;
+        margin-top: 8%;
+        margin-left: 5%;
+
+        hr {
+            width: 56%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+            position: absolute;
+        }
+
+        h1 {
+            position: absolute;
+            font-size: 9rem;
+            font-weight: 750;
+            margin-top: 2%;
+        }
+
+        p {
+            line-height: 5px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            margin-top: 30%;
+            text-transform: uppercase;
+            font-family: "Forma DJR Display", sans-serif;
+            padding: 0px 0px 32px;
+            font-size: 17.638px;
+        }
+
+        button {
+            width: 300.55px;
+            height: 81.56px;
+            padding: 0px 23.8576px;
+            border-radius: 50px;
+            border-style: none;
+            background-color: #FF6500;
+            color: white;
+            font-family: "Lato";
+            font-size: 8.905px;
+            font-weight: 750;
+            letter-spacing: 2px;
+            margin-left: 0%;
+            margin-top: 6%;
+        }
+    }
+
+
+    #pright1 {
+        width: 50%;
+        height: 100%;
+        margin-top: 2%;
+        background-image: url("Assests/viktor-forgacs-x7h5HLsBYwo-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+#publications2 {
+    max-height: 6300px;
+    height: 3800.8px;
+    width: 100%;
+    display: flex;
+    background-color: #EEEEEE;
+
+    #pleft2 {
+        width: 50%;
+        height: 100%;
+        margin-top: 8%;
+        margin-left: 8%;
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 750;
+        }
+
+        hr {
+            width: 56%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+        }
+
+        ol {
+            width: 80%;
+            margin-left: 0;
+
+            li {
+                font-size: 14px;
+                margin-bottom: 5%;
+            }
+        }
+
+
+    }
+
+    #pright2 {
+        width: 50%;
+        height: 100%;
+        margin-top: 8%;
+        margin-left: 8%;
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 750;
+        }
+
+        hr {
+            width: 56%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+        }
+
+        ol {
+            width: 80%;
+            margin-left: 0;
+
+            li {
+                font-size: 14px;
+                margin-bottom: 5%;
+            }
+        }
+
+
+    }
+}
+
+
+/*============= ROLES ==============*/
+
+#roles1 {
+    width: 100%;
+    max-height: 1080px;
+    height: 816.03px;
+    display: flex;
+    color: #FFFFFF;
+
+    #rleft1 {
+        max-width: 100%;
+        max-height: 100%;
+        width: 50%;
+        height: 100%;
+        margin-top: 12%;
+        margin-left: 5%;
+
+        hr {
+            width: 56%;
+            height: 0;
+            border: 3px solid #FF6500;
+            margin-left: 0%;
+            position: absolute;
+        }
+
+
+        h1 {
+
+            font-size: 9rem;
+            font-weight: 750;
+            margin-top: 5%;
+            font-family: "Forma DJR Display";
+            margin-bottom: 0;
+        }
+
+        h2 {
+            ul {
+                margin-top: 2%;
+            }
+
+            li {
+                line-height: 50px;
+            }
+        }
+    }
+
+    #rright1 {
+        max-height: 816.03px;
+        max-width: 100%;
+        width: 50%;
+        height: 816px;
+        margin-top: 2%;
+        background-image: url("Assests/ben-weber-EGXESvDSAFY-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+#roles2 {
+    width: 100%;
+    max-height: 1080px;
+    height: 1033.8px;
+    display: flex;
+    background-color: #EEEEEE;
+
+    #rleft2 {
+        height: 884.82px;
+        max-height: 100%;
+        width: 50%;
+        max-width: 100%;
+        background-image: url("Assests/florian-klauer-mk7D-4UCfmg-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #rright2 {
+        max-height: 884.82px;
+        max-width: 100%;
+        width: 50%;
+        height: 884.82px;
+        margin-top: 6%;
+        margin-left: 5%;
+
+        p {
+            line-height: 25px;
+            width: 80%;
+
+
+            font-size: 18.88px;
+
+
+        }
+    }
+}
+
+#roles3 {
+    height: 645.36px;
+    max-height: 650px;
+    width: 100%;
+    background-image: url("Assests/lycs-architecture-U2BI3GMnSSE-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=============== MOBILE, TABLET SIZES =================*/
+@media screen and (max-width: 425px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #head {
+        width: 100%;
+        height: 200px;
+    }
+
+    .left {
+        width: 50%;
+        height: 100%;
+        margin: 0%;
+        display: grid;
+        align-items: center;
+
+    }
+
+    .right {
+        display: grid;
+        width: 50%;
+        margin: 0%;
+        height: 100%;
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        height: 100%;
+        display: grid;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 8px;
+        margin: 0;
+    }
+
+
+    nav ul a {
+        padding: 0;
+    }
+
+    #homepage1left {
+        width: 100%;
+        position: relative;
+        height: 0;
+    }
+
+    #homepage1right {
+        width: 100%;
+        position: relative;
+        height: 336px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: top;
+        margin-top: 86%;
+    }
+
+
+    #infocontainer {
+        display: grid;
+        height: 800px;
+    }
+
+    .Welcome h1 {
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .Welcome {
+        width: 100%;
+        margin-left: 0;
+        position: relative;
+        margin-top: 6%;
+        height: 400px;
+    }
+
+    .Welcome hr {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    #name {
+        width: 100%;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+
+    #information {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 600;
+        margin-top: 10%;
+        height: 300px;
+    }
+
+    #bioleft {
+        height: 24%;
+        width: 100%;
+        background-position: center;
+    }
+
+    #bioright {
+        width: 100%;
+    }
+
+    #biography {
+        flex-direction: column;
+        width: 100%;
+        height: 1500px;
+    }
+
+    #bioright h2 {
+        margin-left: 0;
+        margin-top: 40%;
+    }
+
+    #bioright hr {
+        border: 3px solid #FF6500;
+        margin: 0;
+        width: 100%;
+    }
+
+    #bioright p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #bioright button {
+        width: 57%;
+    }
+
+    .circle {
+        margin-bottom: 800%;
+        max-width: 100%;
+        max-height: 100%;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 4px solid;
+        border-color: #FF6500;
+        position: absolute;
+        margin-left: 32%;
+        height: 8%;
+        width: 22%;
+    }
+
+
+    #recommendations {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #recomright {
+        width: 100%;
+
+    }
+
+    #recomright h2 {
+        font-size: 23px;
+        display: flex;
+        font-weight: 750;
+        justify-content: center;
+    }
+
+    #recomright p {
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 40px;
+    }
+
+    #getintouch {
+        max-height: 500px;
+        margin-top: 10%;
+    }
+
+    #getintouch button{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    footer{
+
+        nav{
+            margin-left: 0;
+        }
+    }
+
+    footer #copyright {
+        width: 20%;
+        margin-left: 32%;
+        margin-top: -1%;
+        font-size: 8px;
+    }
+
+    #cont a{
+        margin-left: 80%;
+    }
+}
